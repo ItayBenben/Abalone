@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 24, 2020, 7:29:55 PM
+    Author     : Itay Benbenisti
+*/
+
+
+/*  cell class */
+.cell {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  opacity: 0.8;
+  margin: 2px;
+}
+
+
+/*  gutter class */
+.gutter {
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  margin: 2px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  text-align: center;
+  opacity: 0.2;
+}
+
+
+
+/*  row class */
+.row {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.scorerow {
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.btnPVP:hover {
+	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	  font-size: 28px;
+	  text-align: center;
+	  width:460px;
+	  margin: 4px 2px;
+	   
+	  
+}
+.btnPVP{
+	  font-size: 28px;
+	  text-align: center;
+	  width:460px;
+	  margin: 4px 2px;
+	  
+}
+
+.btnPVAI:hover {
+	  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	  font-size: 28px;
+	  text-align: center;
+	  width:460px;
+	  margin: 4px 2px;
+	  
+}
+
+.btnPVAI {
+	  font-size: 28px;
+	   text-align: center;
+	   width:460px;
+	   margin: 4px 2px;
+	   
+	  
+}
+
+
+
+
